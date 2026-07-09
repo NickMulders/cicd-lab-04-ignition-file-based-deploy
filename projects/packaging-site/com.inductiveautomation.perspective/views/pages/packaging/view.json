@@ -3,8 +3,8 @@
   "params": {},
   "props": {
     "defaultSize": {
-      "height": 920,
-      "width": 1440
+      "height": 200,
+      "width": 500
     }
   },
   "root": {
@@ -14,7 +14,6 @@
           "name": "HeaderLabel"
         },
         "position": {
-          "grow": 0,
           "shrink": 0
         },
         "props": {
@@ -28,30 +27,29 @@
         "type": "ia.display.label"
       },
       {
-        "meta": {
-          "name": "StatusCard"
-        },
-        "position": {
-          "grow": 1,
-          "shrink": 1
-        },
-        "props": {
-          "style": {
-            "margin": "16px"
-          }
-        },
-        "type": "ia.container.flex",
         "children": [
           {
             "meta": {
               "name": "LineStateLabel"
             },
             "props": {
-              "text": "Line state: idle"
+              "text": "Line state: Running"
             },
             "type": "ia.display.label"
           }
-        ]
+        ],
+        "meta": {
+          "name": "StatusCard"
+        },
+        "position": {
+          "grow": 1
+        },
+        "props": {
+          "style": {
+            "margin": "16px"
+          }
+        },
+        "type": "ia.container.flex"
       }
     ],
     "meta": {

@@ -6,5 +6,11 @@
   "files": [
     "props.json"
   ],
-  "attributes": {}
+  "attributes": {
+    "lastModificationSignature": "de9f73a539753e81a2345fba36f9565e6dcf8fa2e80db933bb7c155c749937ba",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-07-09T12:37:05Z"
+    }
+  }
 }
