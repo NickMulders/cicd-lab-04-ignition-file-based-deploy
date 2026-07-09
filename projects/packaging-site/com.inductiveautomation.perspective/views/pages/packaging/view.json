@@ -3,11 +3,7 @@
   "params": {},
   "props": {
     "defaultSize": {
-<<<<<<< HEAD
       "height": 200,
-=======
-      "height": 150,
->>>>>>> main
       "width": 600
     }
   },
